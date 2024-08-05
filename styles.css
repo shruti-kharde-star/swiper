@@ -1,0 +1,40 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box; 
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+
+.swiper {
+    height: 50%;
+    width: 100%;
+    /* background-color: red; */
+}
+
+.swiper-wrapper {
+    height: 100%;
+    width: 100%;
+    /* background-color: blue; */
+    display: flex;
+}
+
+.swiper-slide{
+    height: 100%;
+    width: 25%;
+    background-color: aliceblue;
+    color: white;
+    background-image: url(/pt_ipad_pro__6bgrkek0jnm2_xlarge.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
